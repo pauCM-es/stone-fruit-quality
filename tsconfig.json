@@ -5,12 +5,12 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "paths": {
-      "app/*": ["./src/presentation/*"],
-      "environment/*": ["./src/presentation/environments/*"],
-      "shared/*": ["./src/apresentationpp/shared/*"],
-      "utils/*": ["./src/presentation/utils/*"],
-    },
+    // "paths": {
+    //   "app/*": ["./src/presentation/*"],
+    //   "environment/*": ["./src/presentation/environments/*"],
+    //   "shared/*": ["./src/presentationpp/shared/*"],
+    //   "utils/*": ["./src/presentation/utils/*"],
+    // },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
