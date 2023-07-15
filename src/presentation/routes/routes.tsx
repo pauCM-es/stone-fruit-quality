@@ -1,29 +1,20 @@
 import { createBrowserRouter } from "react-router-dom";
 import { ErrorPage } from "../pages/error-page/error-page.component";
+import { CataloguePage } from "../pages/catalogue/catalogue.page";
 import App from "../../App";
 
 export const router = createBrowserRouter([
   {
-    path: "",
-    // element: <div>Hello world!</div>,
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
         path: "catalogue",
-        element: <div>CATALOGUE</div>,
-        errorElement: <ErrorPage />
+        element: <CataloguePage />,
+        errorElement: <ErrorPage />,
       },
-      {
-        path: ":product",
-        // element: <Defect />,
-        element: <div>CATALOGUE OF DEFECTS BY PRODUCTS</div>
-      },
-      {
-        path: "defect/:defectId",
-        // element: <Defect />,
-        element: <div>DEFECT ELEMENT</div>
-      },
-    ],
+
+    ]
   },
 ]);
