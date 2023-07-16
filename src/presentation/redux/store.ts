@@ -1,9 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import { catalogueApi } from '../UI/catalogue/catalogue.service'
+import catalogueSlice from '../UI/catalogue/catalogue.slice'
 
 const rootReducer = combineReducers({
   [catalogueApi.reducerPath]: catalogueApi.reducer,
-
+  catalogue: catalogueSlice
 })
 
 export const store = configureStore({

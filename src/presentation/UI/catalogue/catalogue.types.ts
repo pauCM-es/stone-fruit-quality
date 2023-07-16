@@ -5,7 +5,8 @@ export interface CatalogueState {
 
 export type DefectType = {
   id: string,
-  name: string,
+  title: string,
   description: string,
-  product: string
+  fruits: string
+  pictures: string[]
 }

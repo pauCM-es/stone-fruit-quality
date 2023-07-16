@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Monillia",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["Melocoton", "Albaricoque"]
+  },
+  {
+    "id": 2,
+    "title": "Botritis",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["Melocoton", "Albaricoque"]
+  },
+  {
+    "id": 3,
+    "title": "Piedra",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["Melocoton", "Albaricoque, Cereza"]
+  },
+  {
+    "id": 4,
+    "title": "Rameado",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["Melocoton", "Albaricoque", "Caqui"]
+  },
+  {
+    "id": 5,
+    "title": "Daños mecanicos",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["All"]
+  },
+  {
+    "id":6,
+    "title": "Cigarra",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["All"]
+  },
+  {
+    "id": 7,
+    "title": "Podrido",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["All"]
+  },
+  {
+    "id": 8,
+    "title": "Sobre madurez",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["All"]
+  },
+  {
+    "id": 9,
+    "title": "Falta de color",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["All"]
+  },
+  {
+    "id": 10,
+    "title": "Abierta",
+    "description": "Ad ex nisi nostrud reprehenderit aliqua velit laborum dolor est. Cillum excepteur enim qui aliqua tempor proident et consectetur. Consectetur do ex consequat aliqua qui eiusmod veniam culpa mollit tempor aliqua. Excepteur aliquip fugiat mollit fugiat voluptate.",
+    "pictures": ["https://picsum.photos/seed/dog/500/450","https://picsum.photos/seed/cats/500/450","https://picsum.photos/400/450"],
+    "fruits": ["Cereza"]
+  }
+]
