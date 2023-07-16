@@ -1,4 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-export const BASE_API_URL = process.env.REACT_APP_BASE_API_URL as string;
+export enum envs {
+  API_URL = "VITE_API_URL",
 
+}
 
+export const getEnv = (variable: string) => {
+    return import.meta.env[variable] as string
+}

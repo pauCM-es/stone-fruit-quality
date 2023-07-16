@@ -1,15 +1,12 @@
 // Need to use the React-specific entry point to import createApi
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { DefectType } from './catalogue.types'
-import { BASE_API_URL } from '../../environments/environments'
-
-
-const baseApiUrl = BASE_API_URL
+import { envs, getEnv } from '../../environments/environments'
 
 // Define a service using a base URL and expected endpoints
 export const catalogueApi = createApi({
   reducerPath: 'catalogueApi',
-  baseQuery: fetchBaseQuery({ baseUrl: baseApiUrl }),
+  baseQuery: fetchBaseQuery({ baseUrl: getEnv(envs.API_URL) }),
   endpoints: (builder) => ({
     getAllDefects: builder.query<DefectType, string>({
       query: () => `defect`,
