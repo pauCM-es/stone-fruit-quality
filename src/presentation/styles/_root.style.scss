@@ -22,9 +22,10 @@
   --color-info: rgb(83, 195, 255);
   --color-disable: lightgrey;
 
-  --color-font: white;
-  --color-font-2: rgb(170, 168, 177);
-  --color-bg: rgb(44, 45, 50);
-  --color-bg-accent: rgb(24, 24, 24);
+  --color-font: rgb(26, 26, 26);
+  --color-font-contrast: white;
+  --color-font-accent: rgb(170, 168, 177);
+  --color-bg: rgb(255, 255, 255);
+  --color-bg-accent: rgb(219, 219, 219);
+  --color-bg-contrast: rgb(24, 24, 24);
 }
-

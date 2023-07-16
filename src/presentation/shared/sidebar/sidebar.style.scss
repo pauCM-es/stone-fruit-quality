@@ -1,6 +1,7 @@
 
 .sidebar {
-  background-color: var(--color-bg-accent);
+  background-color: var(--color-bg-contrast);
+  color: var(--color-font-contrast);
   width: 4rem;
   height: 100dvh;
   // position: absolute;
@@ -10,4 +11,13 @@
   flex-direction: column;
   gap: 1rem;
   padding: 4rem 0;
+
+  & button {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    margin: 0.25rem;
+  }
 }
