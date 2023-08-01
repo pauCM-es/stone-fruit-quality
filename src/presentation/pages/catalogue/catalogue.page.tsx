@@ -6,6 +6,7 @@ import ToolbarCatalogue from "../../components/toolbar/toolbar.component"
 import { DefectType } from "../../UI/catalogue/catalogue.types"
 
 import "./catalogue.style.scss"
+import NewEntryFormPopUp from "../../UI/catalogue/new-entry-form/new-entry-form.component"
 
 
 
@@ -23,8 +24,8 @@ export const CataloguePage = () => {
 
   useEffect(() => {
     console.log(entries);
-    
-  },[entries])
+
+  }, [entries])
 
 
   return (
@@ -38,9 +39,9 @@ export const CataloguePage = () => {
             title={ entry.title }
             description={ entry.description }
             pictures={ entry.pictures }
-            more={true}
-            edit={true}
-            remove={true}
+            more={ true }
+            edit={ true }
+            remove={ true }
           />
         )) }
 

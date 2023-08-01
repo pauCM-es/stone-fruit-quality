@@ -1,6 +1,13 @@
 import Toolbar, { Item } from "devextreme-react/toolbar";
+import useModal from "../../utils/hooks/useModal";
+import ModalWrapper from "../modal-wraper/modal-wrapper";
+import NewEntryFormPopUp from "../../UI/catalogue/new-entry-form/new-entry-form.component";
+import { useState } from "react";
+
 
 const ToolbarCatalogue = () => {
+  const [modalIsShowing, toggleModal] = useModal()
+  const [isFormPopupVisible, setIsFormPopupVisible] = useState(false)
 
   const renderLabel = () => {
     return <div className="toolbar__label">Catalogo de defectos en fruta de hueso</div>;
@@ -22,7 +29,8 @@ const ToolbarCatalogue = () => {
   const addButtonOptions = {
     icon: 'plus',
     onClick: () => {
-      alert('Add button has been clicked!');
+      setIsFormPopupVisible(true);
+      console.log("modal ", modalIsShowing)
     },
   };
 
@@ -79,6 +87,7 @@ const ToolbarCatalogue = () => {
           options={ settingsButtonOptions }
         />
       </Toolbar>
+      <NewEntryFormPopUp isFormPopupVisible={ isFormPopupVisible } setIsFormPopupVisible={ setIsFormPopupVisible } />
     </>
   )
 }
